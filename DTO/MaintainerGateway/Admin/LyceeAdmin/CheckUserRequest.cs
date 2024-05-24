@@ -1,0 +1,9 @@
+namespace DTO.ApiGateway.Clients.LyceeEGovernance
+{
+    public class CheckUserRequest
+    {
+        public string? PhoneNumber{ get; set; }
+        public string? EmailAddress{ get; set; }
+        public string? UserName{ get; set; }
+    }
+}
