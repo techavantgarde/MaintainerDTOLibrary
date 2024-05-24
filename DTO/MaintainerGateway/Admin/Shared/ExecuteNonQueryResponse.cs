@@ -1,4 +1,4 @@
-namespace DTO.MaintainerGateway.Admin.LyceeAdmin
+namespace DTO.MaintainerGateway.Admin.Shared
 {
     public class ExecuteNonQueryResponse
     {
