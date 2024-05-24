@@ -1,4 +1,4 @@
-namespace DTO.ApiGateway.Clients.LyceeEGovernance
+namespace DTO.MaintainerGateway.Admin.LyceeAdmin
 {
     public class InsertUserDetailsResponse
     {

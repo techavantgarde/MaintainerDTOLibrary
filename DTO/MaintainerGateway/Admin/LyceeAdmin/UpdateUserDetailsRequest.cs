@@ -1,4 +1,4 @@
-namespace DTO.ApiGateway.Clients.LyceeEGovernance
+namespace DTO.MaintainerGateway.Admin.LyceeAdmin
 {
     public class UpdateUserDetailsRequest
     {
@@ -34,14 +34,6 @@ namespace DTO.ApiGateway.Clients.LyceeEGovernance
         public string? Landmark { get; set; }
         public string? ZipCodeID { get; set; }
 
-        public List<string>? DeletedUrlID { get; set; }
-        public List<UpdateUserDetailsUrl>? updateUserDetailsUrls { get; set; } = new();
     }
 
-    public class UpdateUserDetailsUrl
-    {
-        public string? UrlID { get; set; }
-        public string? Url { get; set; }
-        public string? LabelID { get; set; }
-    }
 }

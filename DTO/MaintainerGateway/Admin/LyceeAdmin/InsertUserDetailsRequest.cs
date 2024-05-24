@@ -1,4 +1,4 @@
-namespace DTO.ApiGateway.Clients.LyceeEGovernance
+namespace DTO.MaintainerGateway.Admin.LyceeAdmin
 {
     public class InsertUserDetailsRequest
     {
@@ -15,12 +15,6 @@ namespace DTO.ApiGateway.Clients.LyceeEGovernance
         public required string AdditionalAddress { get; set; }
         public required string Landmark { get; set; }
         public required string ZipCodeID { get; set; }
-        public List<InsertUserDetailsUrl> insertUserDetailsUrls { get; set; } = new();
     }
 
-    public class InsertUserDetailsUrl
-    {
-        public required string Url { get; set; }
-        public required string LabelID { get; set; }
-    }
 }

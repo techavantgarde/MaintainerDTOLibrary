@@ -1,4 +1,4 @@
-namespace DTO.ApiGateway.Clients.LyceeEGovernance
+namespace DTO.MaintainerGateway.Admin.LyceeAdmin
 {
     public class GetUserDetailsResponse
     {
@@ -27,13 +27,6 @@ namespace DTO.ApiGateway.Clients.LyceeEGovernance
         public string? Landmark { get; set; }
         public required string UTLZipCodeID { get; set; }
 
-        public List<GetUserDetailsUrl> getUserDetailsUrls { get; set; } = new();
     }
-
-    public class GetUserDetailsUrl
-    {
-        public required string UrlD { get; set; }
-        public required string UrlLabelID { get; set; }
-        public required string Url { get; set; }
-    }
+   
 }

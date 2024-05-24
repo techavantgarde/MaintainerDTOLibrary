@@ -28,12 +28,5 @@ namespace DTO.MaintainerGateway.Admin.LyceeAdmin
         public required string IsoCode3 { get; set; }
     }
 
-    public class GetUserPreRequisiteUrls
-    {
-        public required string UrlLabelID { get; set; }
-        public required string UrlLabel { get; set; }
-        public required string Url { get; set; }
-        public required byte[] Content { get; set; }
-        public required string ImageType { get; set; }
-    }
+    
 }
