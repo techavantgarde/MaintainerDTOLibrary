@@ -4,6 +4,6 @@ namespace MaintainerDTOLIBRARY.UserService
     {
         public string? Name{get;set;}
         public byte? PriorityValue{get;set;}
-        public string? UpdatedBy{get;set;}
+        public string? CreatedBy{get;set;}
     }
 }
